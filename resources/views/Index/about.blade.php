@@ -1,4 +1,4 @@
-@extends("Index.inc.navbar")
+@extends("layouts.app")
 
 @section("content")
 aboutty!!!!!

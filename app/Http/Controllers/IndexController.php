@@ -9,26 +9,45 @@ class IndexController extends Controller
 
     public function indexHandler(){
 
-        return view("Index.index");
+        $data = array(
+            "title" => "Home",
+        );
+
+        return view("Index.index")->with($data);
 
     }
 
     
     public function aboutHandler(){
 
-        return view("Index.about");
+        $data = array(
+            "title" => "About Me",
+        );
+
+        return view("Index.about")->with($data);
 
     }
 
     public function projectsHandler(){
 
-        return view("Index.projects");
+        $data = array(
+            "title" => "Projects",
+            "projects" => array(
+                "GameletAPI", "GameletAPI2", "GameletMessageGenerator", "StupidTest"
+            )
+        );
+
+        return view("Index.projects")->with($data);
 
     }
 
     public function contactHandler(){
 
-        return view("Index.contact");
+        $data = array(
+            "title" => "Contact Me",
+        );
+
+        return view("Index.contact")->with($data);
 
     }
 }

@@ -1,0 +1,93 @@
+body {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(/../images/bg.jpg);
+    // overflow: hidden;
+}
+
+nav {
+    background: transparent;
+    font-size: 18px;
+}
+
+.vertical-center {
+    min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 50vh; /* These two lines are counted as one :-)       */
+    text-align: center;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    color: #dcdcdc;
+  }
+
+  .largeTitle{
+      font-size: 6em;
+  }
+
+  @media (max-width : 770px) {
+    .largeTitle{
+        font-size: 3em;
+    }
+  }
+
+ @media (max-width : 320px) {
+    .largeTitle{
+        font-size: 2em;
+    }
+ }
+
+ .links{
+     margin-top: 20px;
+     width: 100%;
+     height: 50px;
+     list-style: none;
+ }
+
+ i[class*="fa-"] {
+     color: #b5b5b5;
+ }
+ .link {
+    float: left;
+    width: 12.6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 75px;
+    line-height: 75px;
+    text-align: center;
+    -webkit-transform: scale(0.96);
+    transform: scale(0.96);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+ }
+
+ @media (max-width : 770px) {
+    .link {
+        float: left;
+        width: 20%;
+        margin: 10%;
+        font-size: 75px;
+        line-height: 75px;
+        text-align: center;
+        -webkit-transform: scale(0.96);
+        transform: scale(0.96);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+     }
+  }
+
+ @media (max-width : 320px) {
+    .link {
+        float: left;
+        width: 20%;
+        margin: 10%;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        -webkit-transform: scale(0.96);
+        transform: scale(0.96);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+     }
+ }

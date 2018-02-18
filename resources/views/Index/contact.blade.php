@@ -1,5 +1,4 @@
-@extends("Index.inc.navbar")
-
+@extends("layouts.app")
 @section("content")
 <pre>
 You used to call me on my, you used to, you used to

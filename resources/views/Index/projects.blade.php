@@ -1,5 +1,15 @@
-@extends("Index.inc.navbar")
+@extends("layouts.app")
 
 @section("content")
-wheeeeeeeeee so many projects!
+
+    @if(count($projects) > 0)
+        @foreach($projects as $project)
+            <li>{{$project}}</li>
+        @endforeach
+    @else
+
+        No Projects :(
+
+    @endif
+
 @endsection
