@@ -7,5 +7,5 @@
 </ul>
 
 <hr>
-<hr>
+<hr> 
 @yield("content")
