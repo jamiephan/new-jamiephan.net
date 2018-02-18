@@ -10,11 +10,14 @@
 <body>
     @include("layouts.inc.navbar")
     <div class="container">
-        @if(Request::url() !== url('/'))
-            <h1 class="title">//{{$title}}</h1>
-        @endif
+        <div class="row">
+            @if(Request::url() !== url('/'))
+                <h1 class="display-1">//{{$title}}</h1>
+            @endif        
+        </div>
          @yield("content")
     </div>
+    
     <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

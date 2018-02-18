@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Open+Sans);@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/../images/bg.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/../images/bg.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/../images/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/../images/bg.jpg);
+  color: white !important;
 }
 
 nav {
@@ -93,6 +94,29 @@ i[class*="fa-"] {
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
   }
+}
+
+.card {
+  color: #212529;
+}
+
+button a {
+  color: white !important;
+}
+
+button a {
+  color: white !important;
+  text-decoration: none;
+}
+
+button a:link {
+  color: white !important;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white !important;
+  text-decoration: none;
 }
 
 /*!

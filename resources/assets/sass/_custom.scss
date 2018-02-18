@@ -1,10 +1,11 @@
 body {
     background:linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
       ),
       url(/../images/bg.jpg);
     // overflow: hidden;
+    color: white !important;
 }
 
 nav {
@@ -91,3 +92,26 @@ nav {
         transition: 0.3s ease-in-out;
      }
  }
+
+ .card{
+     color: #212529;
+ }
+
+ button a  {
+     color: white !important;
+ }
+
+ button a {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  button a:link {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  button a:hover {
+    color: white !important;
+    text-decoration: none;
+  }
