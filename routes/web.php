@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/", "IndexController@indexHandler");
+
+Route::get("/about", "IndexController@aboutHandler");
+
+Route::get("/projects", "IndexController@projectsHandler");
+
+Route::get("/contact", "IndexController@contactHandler");
+
+Route::get("/MyStuff/{project}", ["uses" => "OldProjectsController@OldProjectsHandler"]);
