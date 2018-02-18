@@ -1,4 +1,3 @@
-@echo off
 echo "Enter commit message:"
 read msg
 git add -A
